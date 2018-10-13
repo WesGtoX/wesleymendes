@@ -1,0 +1,6 @@
+# ignore specifc files
+
+
+# ignore folders and directories
+Models/
+Template/
