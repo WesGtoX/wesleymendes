@@ -1,7 +1,7 @@
 ![](src/logo.png)
 <p align="center">
    <a href="https://github.com/WesGtoX/wesleymends">
-     <img src="W.M_LOGO PSD1.svg" alt="Wesley Mendes" title="Wesley Mendes" width="500">
+     <img src="static/img/wm_logo.svg" alt="Wesley Mendes" title="Wesley Mendes" width="500">
    </a>
 </p>
 
