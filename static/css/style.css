@@ -651,6 +651,24 @@ form .netlify-recaptcha {
 #footer-copyrights p a:hover {
 	color: #34c6d3;
 }
+ul.contact-list {
+    list-style: none;
+    padding-left: 0;
+
+}
+
+li #link-color strong svg, 
+li #link-color strong i {
+    color: #fff;
+    text-decoration: none;
+}
+
+.link-color svg, .link-color a {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: 700;
+}
 
 /* ==================================================== */
 /* ==================== NAVIGATION ==================== */
