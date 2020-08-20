@@ -153,5 +153,14 @@ $(function() {
 });
 
 // ====================================================
-// ======================= ----- ======================
+// ======================= FOOTER =====================
 // ====================================================
+// Change footer contact icon color
+$(function() {
+
+    $('.link-color').hover(function() {
+        $(this).addClass('hover-color');
+    }, function() {
+        $(this).removeClass('hover-color');
+    });
+});

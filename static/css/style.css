@@ -4,7 +4,7 @@
 
     Font Family        : Roboto Condensed
 
-    Greenish Blue      : #34c6d3       (Buttons, Icons, Links, Lines & Backgrounds)
+    Greenish Blue      : #E50000       (Buttons, Icons, Links, Lines & Backgrounds)
     Steel Gray         : #41464b       (Headings)
     Blue Bayoux        : #64707b       (Paragraphs)
     White              : #ffffff       (Text With Black Backgrounds)
@@ -104,12 +104,12 @@ h3 {
 }
 
 .btn-blue {
-    border-color: #34c6d3;
-    color: #34c6d3;
+    border-color: #E50000;
+    color: #E50000;
 }
 
 .btn-blue:hover, .btn-white:focus {
-    background-color: #34c6d3;
+    background-color: #E50000;
     color: #ffffff;
 }
 
@@ -165,7 +165,7 @@ h3 {
 .content-title-underline {
     width: 30px;
     height: 3px;
-    background-color: #34c6d3;
+    background-color: #E50000;
     margin: 0 auto 30px auto;
 }
 
@@ -180,7 +180,7 @@ h3 {
 
 .service-item-icon i,
 .service-item-icon svg {
-    color: #34c6d3;
+    color: #E50000;
     float: left;
     padding: 15px;
     margin-right: 25px;
@@ -191,7 +191,7 @@ h3 {
 
 .service-item:hover .service-item-icon svg {
     color: #ffffff;
-    background-color: #34c6d3;
+    background-color: #E50000;
 }
 
 .service-item-title h3 {
@@ -307,7 +307,7 @@ h4.team-member-name {
 }
 
 h4.team-member-designation {
-    color: #34c6d3;
+    color: #E50000;
     font-size: 15px;
     font-weight: 700;
     font-style: italic;
@@ -321,7 +321,7 @@ h4.team-member-designation {
 }
 
 .owl-theme .owl-nav [class*=owl-]:hover {
-    background: #34c6d3 !important;
+    background: #E50000 !important;
 }
 
 .owl-theme .owl-dots .owl-dot span {
@@ -330,7 +330,7 @@ h4.team-member-designation {
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: #34c6d3 !important;
+    background: #E50000 !important;
 }
 
 /* ========================= */
@@ -346,6 +346,11 @@ h4.team-member-designation {
     width: 32px;
     margin-right: 6px;
     margin-top: 10px;
+}
+
+.social-list li a i:hover, 
+.social-list li a svg:hover {
+    color: #E50000
 }
 
 /* ============================== */
@@ -364,7 +369,7 @@ h4.team-member-designation {
 }
 
 .icon-gray i:hover, .icon-gray svg:hover {
-    color: #34c6d3
+    color: #E50000
 }
 
 /* ==================================================== */
@@ -439,13 +444,13 @@ h4.team-member-designation {
 /* ====================== PRICING ===================== */
 /* ==================================================== */
 .pricing-box {
-    border: 3px solid #34c6d3;
+    border: 3px solid #E50000;
     padding: 50px 0;
     margin: 50px 0;
 }
 
 h4.pricing-title {
-    background-color: #34c6d3;
+    background-color: #E50000;
     color: #ffffff;
     display: inline-block;
     padding: 7px 15px;
@@ -480,11 +485,11 @@ ul.pricing-spec li p {
 .pricing-box-lg {
     padding: 90px 0;
     margin: 0;
-    background-color: #34c6d3;
+    background-color: #E50000;
 }
 
 .pricing-box-lg h4.pricing-title {
-    color: #34c6d3;
+    color: #E50000;
     background-color: #ffffff;
 }
 
@@ -508,7 +513,7 @@ ul.pricing-spec li p {
 }
 
 .stats-item i, .stats-item svg {
-    color: #34c6d3;
+    color: #E50000;
 }
 
 .stats-item h2 {
@@ -560,23 +565,36 @@ footer{
     background-size: contain;
 }
 
-address {
-    color: #ffffff;
-}
-
 #contact-left p, 
-address p, 
 #phone-fax-email p {
     font-weight: normal;
 }
 
-address strong {
-    font-size: 16px;
-}
-
-address strong, 
 #phone-fax-email strong {
     letter-spacing: 1px;
+}
+
+#contact-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+li #link-color strong svg, 
+li #link-color strong i {
+    color: #fff;
+    text-decoration: none;
+}
+
+.link-color svg, .link-color a {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: 400;
+}
+
+#contact-list strong.hover-color svg ,
+#contact-list strong.hover-color i {
+    color: #E50000;
 }
 
 form .form-control {
@@ -640,7 +658,7 @@ form .netlify-recaptcha {
 }
 
 #footer-menu a:hover {
-    color: #34c6d3;
+    color: #E50000;
 }
 
 #footer-copyrights p a {
@@ -649,25 +667,7 @@ form .netlify-recaptcha {
 }
 
 #footer-copyrights p a:hover {
-	color: #34c6d3;
-}
-ul.contact-list {
-    list-style: none;
-    padding-left: 0;
-
-}
-
-li #link-color strong svg, 
-li #link-color strong i {
-    color: #fff;
-    text-decoration: none;
-}
-
-.link-color svg, .link-color a {
-    color: #fff;
-    text-decoration: none;
-    background-color: transparent;
-    font-weight: 700;
+	color: #E50000;
 }
 
 /* ==================================================== */
@@ -704,7 +704,7 @@ li #link-color strong i {
 .navbar-nav > li > a:hover,
 .navbar-nav > li > a:focus {
     background: none;
-    color: #34c6d3 !important;
+    color: #E50000 !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -720,7 +720,7 @@ li #link-color strong i {
 }
 
 .navbar-dark .navbar-nav .nav-link.active {
-    color: #34c6d3;
+    color: #E50000;
 }
 
 .navbar-brand img {
