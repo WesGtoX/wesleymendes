@@ -1,12 +1,12 @@
 <p align="center">
    <a href="https://github.com/WesGtoX/wesleymends">
-     <img src="static/img/wm_logo.png" alt="Wesley Mendes" title="Wesley Mendes" width="170">
+     <img src="static/img/wm_logo.png" alt="Wesley Mendes" title="Wesley Mendes" width="170px">
    </a>
 </p>
 
 <p align="center">
-    <a href="https://app.netlify.com/sites/wesleymends/deploys" alt="Netlify Status">
-        <img src="https://api.netlify.com/api/v1/badges/f37ab9b4-cfeb-42ec-9c2e-223267431868/deploy-status" />
+    <a href="https://app.netlify.com/sites/wesleymendes/deploys" alt="Netlify Status">
+        <img src="https://api.netlify.com/api/v1/badges/0c4f988a-b319-4126-8629-c6982b0e528c/deploy-status" />
     </a>
 </p>
 
@@ -16,7 +16,7 @@
 
 My personal website.
 
-Author: [Wesley Mendes](https://github.com/WesGtoX)
+Author: [Wesley Mendes](https://github.com/wesgtox)
 
 ### License ###
 
